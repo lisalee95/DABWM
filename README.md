@@ -25,7 +25,11 @@ Data, Workbooks and Slides for GovTechDay3
         source activate govtech  # Linux or OS/X
         activate govtech         # Windows
 
-Test your installation:
+5. Test your installation:
 
         python -c 'import pandas, numpy, seaborn, matplotlib.pyplot, requests, sklearn'
+
+6. Launch a Jupyter Notebook to start your lab session:
+
+        jupyter-notebook
 
