@@ -3,7 +3,7 @@ Data, Workbooks and Slides for GovTechDay3
 
 ## Installation
 
-1.  Download this repository:
+1.  Clone this repository using Git. Git has already been installed on your student notebook. Launch Git Bash and run the following command:
 
         git clone git@github.com:realanalyticsio/GovTechDay3.git
 
