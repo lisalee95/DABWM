@@ -1,0 +1,14 @@
+name: govtech
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - requests
+  - pandas
+  - seaborn
+  - matplotlib
+  - numpy
+  - scikit-learn
+
+

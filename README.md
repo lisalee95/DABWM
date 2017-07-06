@@ -1,23 +1,31 @@
 # GovTechDay3
 Data, Workbooks and Slides for GovTechDay3
 
-# Installation
+## Installation
 
-We recommend using Anaconda from Continuum for the Python distribution and use Conda to manage the Python environment.
+1.  Download this repository:
 
-1. Check the list of environments that are available and create a Conda environment named govtech if it does not exists already:
-    
-    > conda info --envs
+        git clone git@github.com:realanalyticsio/GovTechDay3.git
 
-    > conda create -y --name=govtech
+    or download as a [zip file](https://github.com/realanalyticsio/GovTechDay3/archive/master.zip) and unzip it. Change to this directory.
 
-2. Activate (In Windows, use activate.bat or activate.ps1)and install the Python dependencies:
+2. Anaconda has already been installed in your student notebook. Alternatively, you can also install [Anaconda](https://www.continuum.io/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small) yourself. Run the following command to see all available conda environments:
 
-    > activate govtech
+        conda info --envs
 
-    > conda install --file=requirements.txt
+3. A `govtech` conda environment has already been created on your student notebook but you will need to update its dependencies and activate it:
 
-3. Launch Jupyter Notebook and access the notebooks and data from this directory via your web browser:
-    
-    > jupyter-notebook
+        conda env update -f environment.yml
+        source activate govtech  # Linux or OS/X
+        activate govtech         # Windows
+
+4. If the `govtech` conda environment is missing, run the following commands to create it and activate the environment:
+
+        conda env create -f environment.yml
+        source activate govtech  # Linux or OS/X
+        activate govtech         # Windows
+
+Test your installation:
+
+        python -c 'import pandas, numpy, seaborn, matplotlib.pyplot, requests, sklearn'
 
