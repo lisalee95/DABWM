@@ -27,7 +27,7 @@ Data, Workbooks and Slides for GovTechDay3
 
 5. Test your installation:
 
-        python -c 'import pandas, numpy, seaborn, matplotlib.pyplot, requests, sklearn'
+        python -c "import pandas, numpy, seaborn, matplotlib.pyplot, requests, sklearn"
 
 6. Finally launch a Jupyter Notebook to start your lab sessions:
 
