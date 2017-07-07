@@ -3,13 +3,13 @@ Data, Workbooks and Slides for GovTechDay3
 
 ## Installation
 
-1.  Clone this repository using Git. Git has already been installed on your student notebook. Launch Git Bash and run the following command:
+1.  Clone this repository using Git. Git has already been installed on your student notebook. Launch `Git Bash` and run the following command:
 
         git clone git@github.com:realanalyticsio/GovTechDay3.git
 
     or download as a [zip file](https://github.com/realanalyticsio/GovTechDay3/archive/master.zip) and unzip it. Change to this directory.
 
-2. Anaconda has already been installed in your student notebook. Alternatively, you can also install [Anaconda](https://www.continuum.io/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small) yourself. Run the following command to see all available conda environments:
+2. Anaconda has already been installed in your student notebook. Alternatively, you can also install [Anaconda](https://www.continuum.io/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small) yourself. Launch `Anaconda Prompt` and run the following command to see all available conda environments:
 
         conda info --envs
 
@@ -29,7 +29,7 @@ Data, Workbooks and Slides for GovTechDay3
 
         python -c 'import pandas, numpy, seaborn, matplotlib.pyplot, requests, sklearn'
 
-6. Launch a Jupyter Notebook to start your lab session:
+6. Finally launch a Jupyter Notebook to start your lab sessions:
 
         jupyter-notebook
 
